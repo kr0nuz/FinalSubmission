@@ -28,11 +28,20 @@ For this exercise, a battery dataset is sourced from Kaggle. Here is a summary o
 
 * Linear regression and Ridge linear regression seems to be the best options, due to their performance and simplicity.
 * However, when implemented in the practcle application with large training data, it ll be important to be cautious of overfitting.
+* Visualise the predictions and actual data for different models
+
+
+
+|  |  |
+| :---: | :---: |
+| **Linear Regression** <br> ![LinearRegression](LinearRegression.png) | **Ridge Regression** <br> ![RidgeRegression](RidgeRegression.png) |
+| **SVR** <br> ![SVR](SVR.png) | **Decision Tree Regression** <br> ![DecisionTreeRegression](DecisionTreeRegression.png) |
 
 
 ### Next
-* More data can be sources, to enrich the model. 
-* In future I plan to work on deploying this as a webapp for people to learn more about ev battery efficieny.
+* More data can be sources, to enrich the model.
+* Datapipelines to source the data can be created and deployed.
+* In future I plan to work on deploying this as a webapp to learn about deploying and hosting ML based apps.
 
 
 
